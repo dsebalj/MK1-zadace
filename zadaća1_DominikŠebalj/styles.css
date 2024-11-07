@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(169, 162, 40);
+}
+h1 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    padding-left: 16px;
+}
+p {
+    color: red;
+    font-family: "Kablammo";
+    font-size: 24px;
+    padding-left: 32px;
+}
