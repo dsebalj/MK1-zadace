@@ -49,3 +49,14 @@ fieldset {
 :nth-child(29) {
     background-color: rgb(144, 165, 241);
 }
+table, td {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    border-style: double;
+    border-color: black;
+    border-collapse: separate;
+    border-radius: 10%;
+    border-style: double;
+}
