@@ -46,3 +46,6 @@ input[name="struka"]:hover {
 fieldset {
     background-color: rgb(11, 241, 34);
 }
+:nth-child(29) {
+    background-color: rgb(144, 165, 241);
+}
