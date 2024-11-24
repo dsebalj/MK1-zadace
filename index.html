@@ -9,32 +9,48 @@
     </head>
 
     <body>
-        <h1>Moja 1. zadaća</h1>
+        <div class="title">
+            <h1>Moja 1. zadaća</h1>
+        </div>
+        <img src="riba.png">
         <p id="myParagraph">Ovo je moja 1. zadaća</p>
-        <h3>Best TV shows:</h3>
-        <ul class="circle">  
-            <li>Dark</li>
-            <li>Breaking bad</li>
-            <li>Better call Saul</li>
-            <li>From</li>
-        </ul>
-        <h3>Best rock bands:</h3>
-        <ol>
-            <li>Dream Theaater</li>
-            <li>Metallica</li>
-            <li>Iron Maiden</li>
-            <li>Jelusick</li>
-        </ol>
+        <div class="centerAlligned">
+            <div class="list">
+                <h3>Best TV shows:</h3>
+                <ul class="circle">  
+                    <li>Dark</li>
+                    <li>Breaking bad</li>
+                    <li>Better call Saul</li>
+                    <li>From</li>
+                </ul>
+            </div>  
+            <div class="list">
+                <h3>Best rock bands:</h3>
+                <ol>
+                    <li>Dream Theaater</li>
+                    <li>Metallica</li>
+                    <li>Iron Maiden</li>
+                    <li>Jelusick</li>
+                </ol>
+            </div>
+        </div>
         <br>
+        <div class="movedToRight">
         <h2>Zanimljivost o Jelusick bandu</h2>
-        <p><strong>Ustanovljeni su prije samo tri godine, a nedavno su napunili <em>Tvornicu Kulture!</em></strong></p>
+         <p><strong>Ustanovljeni su prije samo tri godine, a nedavno su napunili <em>Tvornicu Kulture!</em></strong></p>
+        </div>
         <br>
+        <div class="movedToRight">
         <h2>Sub i sup elementi</h2>
         <p>Ovaj tekst sadrži<sub>sub</sub> element.</p>
         <p>Ovaj tekst sadrži<sup>sup</sup> elemente.</p>
+        </div>
         <br>
+        <div class="movedToRight">
         <h2>Span elementi</h2>
         <p>Moja majka ima <span style="color:blue;">plave</span> oči, a moj otac ima <span style="color:brown;">smeđe</span> oči.</p>
+        </div>
+        <div class="movedToRight" id="borderedFrame">
         <h2>Unos korisnika</h2>
         <form>
             <fieldset>
@@ -62,53 +78,58 @@
                 <button type="button" onclick="alert('Unos uspješan!')">Zalijepi!</button>
             </fieldset>
         </form>
+        </div>
         <br><br><br>
+        <div class="movedToRight">
         <h2>Primjer :active pseudo-selektora</h2>
         <a href="https://www.grf.unizg.hr">GRFUNIZG.com</a><br>
         <a href="https://moodle.srce.hr">Merlin.com</a><br>
+        </div>
         <br>
         <br>
-        <h2>Poredak timova u 1. HNL</h2>
-        <table>
-            <thead>
-            <tr>
-                <th>Tim</th>
-                <th>Utakmice</th>
-                <th>Gol razlika</th>
-                <th>Bodovi</th>
-                <th>Ukupno bodova u Ligi prvaka</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Hajduk</td>
-                <td>13</td>
-                <td>+13</td>
-                <td>28</td>
-                <td rowspan="4">7</td>
-            </tr>
-            <tr>
-                <td>Rijeka</td>
-                <td>12</td>
-                <td>+15</td>
-                <td>24</td>
-            </tr>
-            <tr>
-                <td>Dinamo</td>
-                <td>13</td>
-                <td>+13</td>
-                <td>24</td>
-            </tr>
-            <tr>
-                <td>Varaždin</td>
-                <td>13</td>
-                <td>+3</td>
-                <td>20</td>
-            </tr>
-            <tr>
-                <td colspan="2">Ukupno bodova: 96</td>
-            </tr>
-        </tbody>
-        </table>
+        <div class="movedToRight">
+            <h2>Poredak timova u 1. HNL</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tim</th>
+                        <th>Utakmice</th>
+                        <th>Gol razlika</th>
+                        <th>Bodovi</th>
+                        <th>Ukupno bodova u Ligi prvaka</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hajduk</td>
+                        <td>13</td>
+                        <td>+13</td>
+                        <td>28</td>
+                        <td rowspan="4">7</td>
+                    </tr>
+                    <tr>
+                        <td>Rijeka</td>
+                        <td>12</td>
+                        <td>+15</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Dinamo</td>
+                        <td>13</td>
+                        <td>+13</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Varaždin</td>
+                        <td>13</td>
+                        <td>+3</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Ukupno bodova: 96</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </body>
 </html>
