@@ -125,3 +125,7 @@ body {
         background-color: blanchedalmond;
     }
 }
+video {
+    width: 500px;
+    height: auto;    
+}
