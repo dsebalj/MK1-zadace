@@ -129,3 +129,12 @@ video {
     width: 500px;
     height: auto;    
 }
+div.hover {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+div:hover {
+    width: 300px;
+}
